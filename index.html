@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header>
+      <h1>Find Nationality</h1>
+    </header>
+    <script src="script.js"></script>
+    <div class="body">
+      <div class="image">
+        <img
+          class="img"
+          src="https://upload.wikimedia.org/wikipedia/commons/9/96/Mundo_hecho_de_Banderas.gif"
+          alt="gif"
+        />
+      </div>
+      <div class="finding">
+        <div class="form">
+          <label class="label" for="name">Enter your name :</label><br />
+          <input class="input" type="text" id="fname" value=""/>
+          <input type="submit" value="Submit" onclick="fetchNationality()"/>
+        </div>
+          <h1 class="name">Name: </h1>
+          <h2 class="nationality">Nationality: </h2>
+          <h2 class="probability">probability: </h2>
+      </div>
+    </div>
+    <footer>
+      <p class="footer">Javascript Project. © Klaudio Lushka</p>
+    </footer>
+  </body>
+</html>
