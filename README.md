@@ -1,4 +1,6 @@
-#Homework2
+#Homework2 - FIND NATIONALITY WEB PAGE
+
+API: https://api.nationalize.io?name=
 
 In this homework, I created a web page that returns the nationality of a person based on their name. I ran the node js in localhost, port 3000. (127.0.0.1:3000)
 
