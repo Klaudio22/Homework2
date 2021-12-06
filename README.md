@@ -1,1 +1,1 @@
-The first version of the web page
+After styling the web page again.
